@@ -1,0 +1,31 @@
+#grille {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 1px green;
+  width: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: auto;
+  border: 1px solid #ccc;
+}
+
+#grille div[class] {
+  text-align: center;
+  padding: 10px;
+}
+
+.entete {
+  background-color: #ccc;
+  font-weight: bold;
+  border-bottom: 1px solid #999;
+}
+
+.donnee {
+  background-color: #eee;
+  border-bottom: 1px solid #999;
+}
+
+.donnee:hover {
+  background-color: #f90;
+}
